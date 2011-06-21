@@ -1,0 +1,1 @@
+DROP DATABASE secam_secure;
