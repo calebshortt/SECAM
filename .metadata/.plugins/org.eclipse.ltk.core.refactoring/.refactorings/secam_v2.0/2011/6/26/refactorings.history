@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;client.StateChangedEvent.java&apos; to &apos;StateChangeEvent.java&apos;&#x0D;&#x0A;- Original project: &apos;secam_v2.0&apos;&#x0D;&#x0A;- Original element: &apos;client.StateChangedEvent.java&apos;&#x0D;&#x0A;- Renamed element: &apos;client.StateChangeEvent.java&apos;" description="Rename compilation unit &apos;StateChangedEvent.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;client{StateChangedEvent.java" name="StateChangeEvent.java" references="false" stamp="1308597513154" version="1.0"/>
+</session>

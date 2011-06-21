@@ -48,7 +48,7 @@ import javax.media.format.VideoFormat;
  * in the space where a change has occured.
  * <p>The next step is to eliminate these clusters that are too small, but still
  * appeared in our black-white-red image. Only the big clusters are left (and
- * are colored red). During this process we keep a track of couunt of the big
+ * are colored red). During this process we keep a track of count of the big
  * clusters.
  * If the count is greater than <b>blob_threshold</b> then the input frame is
  * determined to have consideribly motion as to the previous frame.
