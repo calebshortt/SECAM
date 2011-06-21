@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="25" version="2.0">
+<workbench progressCount="43" version="2.0">
 <workbenchAdvisor/>
 <window height="738" maximized="true" width="1024" x="138" y="-15">
 <fastViewData fastViewLocation="1024"/>
@@ -32,6 +32,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -40,22 +42,28 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SysControls_Demo/src/motiondetection/MotionDetectionControl.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1138" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MotionDetectionEffect.java" partName="MotionDetectionEffect.java" path="C:/My Folder/_School/2011 Summer/SECAM/local_ds_sec_demo/SysControls_Demo/src/motiondetection/MotionDetectionEffect.java" title="MotionDetectionEffect.java" tooltip="SysControls_Demo/src/motiondetection/MotionDetectionEffect.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MotionDetectionEffect.java" partName="MotionDetectionEffect.java" path="C:/My Folder/_School/2011 Summer/SECAM/local_ds_sec_demo/SysControls_Demo/src/motiondetection/MotionDetectionEffect.java" title="MotionDetectionEffect.java" tooltip="SysControls_Demo/src/motiondetection/MotionDetectionEffect.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SysControls_Demo/src/motiondetection/MotionDetectionEffect.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1913" selectionTopPixel="1309"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MotionDetector.java" partName="MotionDetector.java" path="C:/My Folder/_School/2011 Summer/SECAM/local_ds_sec_demo/SysControls_Demo/src/motiondetection/MotionDetector.java" title="MotionDetector.java" tooltip="SysControls_Demo/src/motiondetection/MotionDetector.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SysControls_Demo/src/motiondetection/MotionDetector.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5118" selectionTopPixel="6383"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectionManager.java" partName="ConnectionManager.java" path="C:/My Folder/_School/2011 Summer/SECAM/local_ds_sec_demo/SysControls_Demo/src/connection/ConnectionManager.java" title="ConnectionManager.java" tooltip="SysControls_Demo/src/connection/ConnectionManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SysControls_Demo/src/connection/ConnectionManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1530"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
+<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings (54 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -284,13 +292,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SysControls_Demo/src/connection/ImageSourceStream.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SysControls_Demo/src/motiondetection/MotionDetectionControl.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SysControls_Demo/src/motiondetection/MotionDetectionEffect.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SysControls_Demo/src/motiondetection/MotionDetector.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SysControls_Demo/src/connection/ConnectionManager.java"/>
 </editors>
-<item historyLabel="ConnectionManager.java" index="7">
-<position info="not_deleted" x="23" y="10703"/>
-</item>
-<item historyLabel="DatabaseConnectionManager.java" index="6">
-<position info="not_deleted" x="7745" y="0"/>
-</item>
 <item historyLabel="ConnectionManager.java" index="7">
 <position info="not_deleted" x="23" y="10703"/>
 </item>
@@ -432,8 +436,14 @@
 <item historyLabel="MotionDetectionControl.java" index="18">
 <position info="not_deleted" x="1138" y="0"/>
 </item>
-<item active="true" historyLabel="MotionDetectionEffect.java" index="19">
+<item historyLabel="MotionDetectionEffect.java" index="19">
 <position info="not_deleted" x="15005" y="22"/>
+</item>
+<item historyLabel="MotionDetector.java" index="20">
+<position info="not_deleted" x="5118" y="0"/>
+</item>
+<item active="true" historyLabel="ConnectionManager.java" index="21">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -448,11 +458,16 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectionManager.java" tooltip="SysControls_Demo/src/connection/ConnectionManager.java">
+<persistable path="/SysControls_Demo/src/connection/ConnectionManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MotionDetector.java" tooltip="SysControls_Demo/src/motiondetection/MotionDetector.java">
+<persistable path="/SysControls_Demo/src/motiondetection/MotionDetector.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MotionDetectionEffect.java" tooltip="SysControls_Demo/src/motiondetection/MotionDetectionEffect.java">
 <persistable path="/SysControls_Demo/src/motiondetection/MotionDetectionEffect.java"/>
 </file>
@@ -489,14 +504,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StreamInfo.java" tooltip="SysControls_Demo/src/connection/StreamInfo.java">
 <persistable path="/SysControls_Demo/src/connection/StreamInfo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectionManager.java" tooltip="SysControls_Demo/src/connection/ConnectionManager.java">
-<persistable path="/SysControls_Demo/src/connection/ConnectionManager.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DatabaseConnectionManager.java" tooltip="secam_v2.0/src/connection/DatabaseConnectionManager.java">
 <persistable path="/secam_v2.0/src/connection/DatabaseConnectionManager.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VideoComponent.java" tooltip="SysControls_Demo/src/syscontrolsdemo/VideoComponent.java">
-<persistable path="/SysControls_Demo/src/syscontrolsdemo/VideoComponent.java"/>
 </file>
 </mruList>
 </workbench>

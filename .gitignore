@@ -1,0 +1,11 @@
+# Ignore Visio Documents
+*.vsd
+
+# Ignore Logs
+*.log
+
+# Other
+*.psd
+*.mpg
+*.mov
+*.avi
