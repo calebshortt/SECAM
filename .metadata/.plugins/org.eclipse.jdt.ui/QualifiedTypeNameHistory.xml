@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="connection.DatabaseConnectionManager"/>
+<fullyQualifiedTypeName name="connection.WebConnectionManager"/>
+<fullyQualifiedTypeName name="java.awt.Frame"/>
+<fullyQualifiedTypeName name="motiondetection.MotionListenerInterface"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.DMUL"/>
+<fullyQualifiedTypeName name="connection.DBConnSingleton"/>
+<fullyQualifiedTypeName name="connection.WebConnSingleton"/>
+<fullyQualifiedTypeName name="motiondetection.MotionDetector"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+</qualifiedTypeNameHistroy>

@@ -71,16 +71,19 @@ public class MotionDetector implements ControllerListener, MotionListenerInterfa
 	/**
 	 * This processor converts the input stream into a transmittable format for a network.
 	 */
+	// TODO: to WebStreamManager
 	private Processor networkProcessor = null;
 	
 	/**
 	 * Is used to manage the transmitting network stream
 	 */
+	// TODO: to WebStreamManager
 	private RTPManager rtpManager = null;
 	
 	/**
 	 * Output stream that transmits the video data over a network
 	 */
+	// TODO: to WebStreamManager
 	private SendStream stream = null;
 	/**
 	 * This is the data sink that will broadcast the stream to the destination specified by the destinationLocator
@@ -456,6 +459,9 @@ public class MotionDetector implements ControllerListener, MotionListenerInterfa
 	 * Sets the broadcaster DataSink to the destination url (from the ConnectionStatics class) and creates the stream 
 	 * realized processor. The data source parameter is the webcamera data source. This streams to the database. There 
 	 * is a separate broadcaster for streaming to a network (web controls).
+	 * 
+	 * Starts database streaming, local file creation/streaming, and web streaming
+	 * 
 	 * @param datasource
 	 * @throws IOException
 	 * @throws NoProcessorException
@@ -493,6 +499,9 @@ public class MotionDetector implements ControllerListener, MotionListenerInterfa
 	/**
 	 * Initializes the network broadcasting processors and data sinks. It does NOT start or stop them: there are separate 
 	 * methods for that.
+	 * 
+	 * Starts the streaming to the web applet
+	 * 
 	 * @throws NoProcessorException
 	 * @throws CannotRealizeException
 	 * @throws IOException

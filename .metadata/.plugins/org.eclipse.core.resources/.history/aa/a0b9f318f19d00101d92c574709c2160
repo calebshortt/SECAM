@@ -1,0 +1,23 @@
+package connection;
+
+import javax.media.Processor;
+
+/**
+ * Web Connection Manager. Deals with connecting and streaming video data to the web applet.
+ * @author Caleb Shortt, TJ Borschneck
+ */
+
+public class WebConnectionManager {
+	
+	/**
+	 * This processor converts the input stream into a transmittable format for a network.
+	 */
+	private Processor networkProcessor = null;
+	
+	
+	
+	
+	public WebConnectionManager() {
+		
+	}
+}

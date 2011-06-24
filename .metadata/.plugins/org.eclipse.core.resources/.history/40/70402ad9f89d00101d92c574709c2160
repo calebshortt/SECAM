@@ -1,0 +1,29 @@
+package client;
+
+import java.awt.Frame;
+
+import connection.DatabaseConnectionManager;
+import connection.WebConnectionManager;
+import motiondetection.MotionDetector;
+
+public class Control implements MotionListenerInterface {
+	
+	private MotionDetector motionDetector = null;
+	private DatabaseConnectionManager dbConnManager = null;
+	private WebConnectionManager webConnManager = null;
+	
+	
+	/**
+	 * Constructor: Takes a frame that will display the results from the motion detection
+	 * @param frame
+	 */
+	public Control(Frame frame) {
+		
+	}
+	
+	
+	
+	
+	
+	
+}

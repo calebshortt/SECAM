@@ -3,14 +3,13 @@ package connection;
 /**
  * A manager for a DatabaseConnectionManager singleton.
  * @author Caleb Shortt
- *
  */
 public class DBConnSingleton {
 	
 	private static DatabaseConnectionManager manager = null;
 	
 	/**
-	 * Returns the instance of the ConnectionManager singleton
+	 * Returns the instance of the DatabaseConnectionManager singleton
 	 * @return The connection manager singleton instance
 	 */
 	public static DatabaseConnectionManager getInstance() {

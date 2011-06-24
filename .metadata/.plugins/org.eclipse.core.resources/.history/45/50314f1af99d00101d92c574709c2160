@@ -1,0 +1,46 @@
+package client;
+
+import java.awt.Frame;
+
+import connection.DatabaseConnectionManager;
+import connection.WebConnectionManager;
+import motiondetection.MotionDetector;
+import motiondetection.MotionEvent;
+import motiondetection.MotionListenerInterface;
+
+public class Control implements MotionListenerInterface {
+	
+	private MotionDetector motionDetector = null;
+	private DatabaseConnectionManager dbConnManager = null;
+	private WebConnectionManager webConnManager = null;
+	
+	
+	/**
+	 * Constructor: Takes a frame that will display the results from the motion detection
+	 * @param frame
+	 */
+	public Control(Frame frame) {
+		
+	}
+
+
+	/**
+	 * The motion event handler for this class. When motion 
+	 * is detected, this function is called.
+	 * @param motionevent (MotionEvent)
+	 * @return void
+	 */
+	public void motion(MotionEvent me) {
+		if (!SystemState.Recording && SystemState.Activated)
+		{
+			// TODO
+			// Start Recording / Broadcasting
+		}
+	}
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package motiondetection;
+
+import javax.media.ControllerListener;
+
+import syscontrolsdemo.SystemStateChangeInterface;
+
+public class MotionDetector implements ControllerListener, MotionListenerInterface, SystemStateChangeInterface
+{
+
+}

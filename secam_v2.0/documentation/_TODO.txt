@@ -1,0 +1,53 @@
+The MotionDetector class is enormous.
+It deals with web connection/broadcasting and motion detection.
+We need to split these two up.
+
+The new Control module will handle the new classes.
+
+The new web connection/broadcasting class: 	WebConnectionManager (Singleton)
+The new motion detection class:			MotionDetector
+
+
+Control
+  |
+  +----WebConnectionManager
+  |
+  +----DBConnectionManager
+  |
+  +----MotionDetector
+  |
+  +----[File saving class (unnamed yet)]
+
+
+========================================================================
+
+[TASK DONE IN 2.0]
+
+Right now we have DBConnSingleton that is used ONLY to check if the given 
+username and password are valid.
+
+The connection code in MotionDetector is dealing with the streaming to both 
+the harddrive file and the web applet.
+
+The local streaming has to move to the DBConnSingleton.
+The applet streaming has to move to the WebConnSingleton.
+
+========================================================================
+
+Need to extract the creating of files and storing of video files on hard 
+disk. This should be its own class. The database manager will create an 
+instance of this class and use it to save files to disc when a stream is 
+created. [Right now the code is in the old motiondetector class mixed with 
+the network broadcast code. the network stuff has been extracted, only need 
+to get the file stuff now.]
+
+This will also cause you to change the "StopBroadcastTask" class to access 
+the new "filesaving" class via the database manager class and stop the 
+saving process from there.
+
+=========================================================================
+
+
+
+
+

@@ -1,0 +1,60 @@
+package motiondetection;
+
+import java.awt.Frame;
+import java.text.SimpleDateFormat;
+
+import javax.media.ControllerListener;
+import javax.media.MediaLocator;
+
+import connection.ConnSingleton;
+
+import client.SystemStateChangeInterface;
+
+public class MotionDetector implements ControllerListener, MotionListenerInterface, SystemStateChangeInterface
+{
+	
+	private Frame frame = null;
+	
+	private SimpleDateFormat formatter = null;
+	
+	
+	
+	/**
+	 * The default constructor will create a new test Frame to be used 
+	 * by the motion detector system.
+	 */
+	public MotionDetector()
+	{
+		frame = new Frame("Test Motion Detection");
+	}
+	
+	
+	/**
+	 * This overrided constructor takes a data source and a frame. The 
+	 * data source is the location to the video stream (Webcam) and the 
+	 * provided frame will be used to display the output video stream. 
+	 * <b>This is the main constructor of this class and should be 
+	 * initialised for its use.</b>
+	 * @param datasource (MediaLocator)
+	 * @param frame (Frame)
+	 */
+	public MotionDetector(MediaLocator ds, Frame frame)
+	{
+		this.frame = frame;
+		MotionListener.addMotionListener(this);
+		manager = ConnSingleton.getInstance();
+		formatter = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+		
+		inputMediaLocator = ds;
+
+		if (!open(inputMediaLocator))
+		{
+			System.err.println("Could not create stream");
+			System.exit(0);
+		}
+	}
+	
+	
+	
+	
+}

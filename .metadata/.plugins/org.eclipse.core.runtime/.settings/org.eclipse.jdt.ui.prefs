@@ -1,4 +1,4 @@
-#Mon Jun 20 12:24:43 PDT 2011
+#Thu Jun 23 18:17:33 PDT 2011
 sourceHoverBackgroundColor=255,255,225
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
@@ -18,4 +18,5 @@ org.eclipse.jdt.ui.formatterprofiles.version=11
 content_assist_number_of_computers=18
 useQuickDiffPrefPage=true
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="javax.media.ControllerListener"><rhs name\="motiondetection.MotionDetector"/></lhs><lhs name\="motiondetection.MotionDetector"><rhs name\="motiondetection.MotionDetector"/></lhs></history>
 org.eclipse.jdt.ui.text.code_templates_migrated=true
