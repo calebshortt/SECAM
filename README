@@ -1,1 +1,31 @@
-This is a README
+
+DESCRIPTION
+=========================================================================================================
+
+This is a motion-detection-triggered video monitoring system. It detects motion and begins recording 
+while simultaneously streaming the video, encrypted, to a remote server where it is stored encrypted with 
+the user's private key.
+
+
+
+
+
+MAIN CLASS
+=========================================================================================================
+The main class for this program is ClientMain.java. 
+
+Run this class to run the system.
+
+
+
+
+
+
+KNOWN ISSUES
+=========================================================================================================
+1.	Some differences between computers based on drivers. For example, some HP drivers delay the video
+	selection process by having a popup that asks the user what device to use. This causes problems 
+	with the internal selection system of the client. This issue is not prevalent in other laptops.
+	(Be aware of some driver issues of JMF)
+
+	
