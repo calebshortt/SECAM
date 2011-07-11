@@ -64,7 +64,7 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 		}
 		
 		Timer timer = new Timer();
-		timer.schedule(new StopBroadcastTask(manager, broadcaster, streamProcessor), (long)(recordingInterval*60*1000));
+		timer.schedule(new StopBroadcastTask(dbConnManager, webConnManager), (long)(recordingInterval*60*1000));
 	}
 	
 	

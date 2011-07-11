@@ -9,14 +9,17 @@ import javax.media.Processor;
 import client.SystemState;
 
 import connection.DatabaseConnectionManager;
+import connection.WebConnectionManager;
 
 public class StopBroadcastTask extends TimerTask
 {
-	private DatabaseConnectionManager manager = null;
+	private DatabaseConnectionManager dbManager = null;
+	private WebConnectionManager webManager = null;
 	
-	public StopBroadcastTask(DatabaseConnectionManager manager)
+	public StopBroadcastTask(DatabaseConnectionManager dbmanager, WebConnectionManager webmanager)
 	{
-		this.manager = manager;
+		this.dbManager = dbmanager;
+		this.webManager = webmanager;
 	}
 	
 	public void run()

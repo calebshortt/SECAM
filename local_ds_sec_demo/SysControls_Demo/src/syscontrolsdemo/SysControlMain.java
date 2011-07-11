@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Vector;
 
 import javax.media.CaptureDeviceInfo;
+import javax.media.MediaLocator;
 
 import motiondetection.MotionDetector;
 
@@ -188,7 +189,8 @@ public class SysControlMain
 		video.setLayoutData(vData);
 
 		Frame frame = SWT_AWT.new_Frame(video);
-		mDetector = new MotionDetector(currentDevice.getLocator(), frame);
+		MediaLocator locator = currentDevice.getLocator();
+		mDetector = new MotionDetector(locator, frame);
 		frame = mDetector.getFrame();
 		mDetector.setInputDeviceManager(DeviceManager);
 

@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Vector;
 
 import javax.media.CaptureDeviceInfo;
+import javax.media.MediaLocator;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.awt.SWT_AWT;
@@ -188,7 +189,8 @@ public class ClientMain
 		video.setLayoutData(vData);
 
 		Frame frame = SWT_AWT.new_Frame(video);
-		control = new Control(currentDevice.getLocator(), frame);
+		MediaLocator locator = currentDevice.getLocator();
+		control = new Control(locator, frame);
 		frame = control.getFrame();
 		// TODO: Delete
 		//mDetector = new MotionDetector(currentDevice.getLocator(), frame);
