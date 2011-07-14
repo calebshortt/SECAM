@@ -537,6 +537,7 @@ public class ClientMain
 			{
 				try
 				{
+					// Runs in a separate thread because the main GUI is a thread in itself
 					Display.getDefault().syncExec( new Runnable() {  public void run() { new ConnectPane(display); }});
 				} 
 				catch (Exception err)

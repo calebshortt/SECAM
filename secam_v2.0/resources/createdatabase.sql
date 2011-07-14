@@ -52,4 +52,6 @@ CREATE TABLE settings (
 	FOREIGN KEY(computer_id) REFERENCES computers(id)
 );
 
+INSERT INTO users VALUES (0,"Admin","Admin","A","Admin","password");
+
 
