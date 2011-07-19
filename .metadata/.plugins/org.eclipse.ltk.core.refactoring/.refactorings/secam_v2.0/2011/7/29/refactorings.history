@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;connection.DatabaseConnectionManager.updateStream(...)&apos; to &apos;startDBStream&apos;&#x0D;&#x0A;- Original project: &apos;secam_v2.0&apos;&#x0D;&#x0A;- Original element: &apos;connection.DatabaseConnectionManager.updateStream(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;connection.DatabaseConnectionManager.startDBStream(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;updateStream&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;connection{DatabaseConnectionManager.java[DatabaseConnectionManager~updateStream~I~QBuffer;" name="startDBStream" references="true" stamp="1310669092453" version="1.0"/>
+</session>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="connection.DatabaseConnectionManager"/>
 <fullyQualifiedTypeName name="java.awt.Frame"/>
 <fullyQualifiedTypeName name="motiondetection.MotionListenerInterface"/>
 <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.DMUL"/>
-<fullyQualifiedTypeName name="connection.DBConnSingleton"/>
 <fullyQualifiedTypeName name="connection.WebConnSingleton"/>
 <fullyQualifiedTypeName name="motiondetection.MotionDetector"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="connection.WebConnectionManager"/>
 <fullyQualifiedTypeName name="javax.media.MediaLocator"/>
+<fullyQualifiedTypeName name="connection.StreamInfo"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="connection.DBConnSingleton"/>
+<fullyQualifiedTypeName name="connection.DatabaseConnectionManager"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.DateTime"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="javax.media.DataSink"/>
+<fullyQualifiedTypeName name="client.SystemState"/>
 </qualifiedTypeNameHistroy>

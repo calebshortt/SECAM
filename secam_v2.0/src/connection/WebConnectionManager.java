@@ -42,12 +42,22 @@ public class WebConnectionManager {
 	 */
 	private SendStream stream = null;
 	
+	// -------------------------------------------------------------------------------
+	private WebConnectionManager() {}
+	// -------------------------------------------------------------------------------
 	
-	public WebConnectionManager() {
-		
+	private static WebConnectionManager manager = null;
+	
+	/**
+	 * Returns the instance of the WebConnectionManager singleton
+	 * @return The connection manager singleton instance
+	 */
+	public static WebConnectionManager getInstance() {
+		if(manager == null) {
+			manager = new WebConnectionManager();
+		}
+		return manager;
 	}
-	
-	
 	
 	/**
 	 * Initializes the network broadcasting processors and data sinks. It does NOT start or stop them: there are separate 
@@ -62,8 +72,8 @@ public class WebConnectionManager {
 	 * @throws NotRealizedError
 	 */
 	public void initBroadcast(DataSource inputDataSource) throws NoProcessorException, CannotRealizeException, IOException, NoDataSinkException, NotRealizedError {
-		DataSource source = ((SourceCloneable)inputDataSource).createClone();
 		
+		DataSource source = ((SourceCloneable)inputDataSource).createClone();
 		Format[] formats = new Format[] { new VideoFormat(VideoFormat.JPEG_RTP) };
 		ProcessorModel model = new ProcessorModel(source, formats, new ContentDescriptor(ContentDescriptor.RAW_RTP));
 		

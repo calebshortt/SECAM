@@ -13,28 +13,31 @@ import connection.WebConnectionManager;
 
 public class StopBroadcastTask extends TimerTask
 {
-	private DatabaseConnectionManager dbManager = null;
 	private WebConnectionManager webManager = null;
+	private Processor processor = null;
+	private DataSink datasink = null;
 	
-	public StopBroadcastTask(DatabaseConnectionManager dbmanager, WebConnectionManager webmanager)
+	public StopBroadcastTask(Processor processor, DataSink datasink, WebConnectionManager webmanager)
 	{
-		this.dbManager = dbmanager;
+		this.processor = processor;
+		this.datasink = datasink;
 		this.webManager = webmanager;
 	}
 	
 	public void run()
 	{
 		try {
-			// TODO: Add a new class that will be in the database connection manager.
-			//		This class should handle the actual saving of the video file to hard disk.
-			//		Access it through the dbmanager class and stop it here.
-			System.out.println("BROADCAST HAS BEEN TERMINATED");
-			//manager.disconnect();
+			this.webManager.stopBroadcast();
+			this.processor.stop();
+			this.datasink.stop();
+			this.datasink.close();
+			
 			SystemState.Recording = false;
+			System.out.println("BROADCAST HAS BEEN TERMINATED");
 		} 
 		catch(Exception e)
 		{
-			e.printStackTrace();
+			System.err.println("[ERROR] Could not stop broadcast task: " + e);
 		}
 	}
 }

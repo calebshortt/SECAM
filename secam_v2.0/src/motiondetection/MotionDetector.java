@@ -265,4 +265,12 @@ public class MotionDetector implements ControllerListener
 	{
 		return frame;
 	}
+	
+	
+	/**
+	 * 
+	 */
+	public DataSource getInputDataSource() {
+		return inputDataSource;
+	}
 }

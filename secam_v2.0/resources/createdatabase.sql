@@ -3,7 +3,7 @@ CREATE DATABASE secam_secure;
 use secam_secure;
 
 CREATE TABLE audit_login (
-	id int PRIMARY KEY,
+	id int PRIMARY KEY AUTO_INCREMENT,
 	username varchar(30) NOT NULL,
 	user_id int NOT NULL,
 	computer_id int NOT NULL,
@@ -52,6 +52,7 @@ CREATE TABLE settings (
 	FOREIGN KEY(computer_id) REFERENCES computers(id)
 );
 
-INSERT INTO users VALUES (0,"Admin","Admin","A","Admin","password");
+INSERT INTO users VALUES (0,"Testy","McTesterson","Test","test","testpass");
+INSERT INTO computers VALUES (0,0,"TESTMACADDRESS");
 
 

@@ -31,7 +31,7 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Tray;
 import org.eclipse.swt.widgets.TrayItem;
 
-import connection.DBConnSingleton;
+import connection.DatabaseConnectionManager;
 
 
 /**
@@ -261,12 +261,12 @@ public class ClientMain
 				if(line.startsWith("AUDIT="))
 				{
 					int aCursor = Integer.parseInt(line.replace("AUDIT=", ""));
-					DBConnSingleton.getInstance().setAuditCursor(aCursor);
+					DatabaseConnectionManager.getInstance().setAuditCursor(aCursor);
 				}
 				if(line.startsWith("STREAM="))
 				{
 					int sCursor = Integer.parseInt(line.replace("STREAM=", ""));
-					DBConnSingleton.getInstance().setStreamCursor(sCursor);
+					DatabaseConnectionManager.getInstance().setStreamCursor(sCursor);
 				}
 			}
 		}
@@ -293,9 +293,9 @@ public class ClientMain
 		try {
 			out = new BufferedWriter(new FileWriter(settingsFile, false));
 			
-			out.write("AUDIT=" + DBConnSingleton.getInstance().getAuditCursor());
+			out.write("AUDIT=" + DatabaseConnectionManager.getInstance().getAuditCursor());
 			out.newLine();
-			out.write("STREAM=" + DBConnSingleton.getInstance().getStreamCursor());
+			out.write("STREAM=" + DatabaseConnectionManager.getInstance().getStreamCursor());
 		}
 		catch (Exception e)
 		{
@@ -850,7 +850,7 @@ public class ClientMain
 			control.cleanup();
 		} catch(Exception e) {}
 		setSettingsFile();
-		DBConnSingleton.getInstance().disconnect();
+		DatabaseConnectionManager.getInstance().disconnect();
 		display.dispose();
 		System.exit(0);
 	}

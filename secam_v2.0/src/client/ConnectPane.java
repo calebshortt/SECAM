@@ -10,7 +10,7 @@ import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
 
-import connection.DBConnSingleton;
+import connection.DatabaseConnectionManager;
 
 
 /**
@@ -109,7 +109,7 @@ public class ConnectPane {
 				pass = t_pass.getText();
 				status.setText("Attempting to login");
 				
-				if(DBConnSingleton.getInstance().attemptLogin(getUser(), getPassword(), getName()))
+				if(DatabaseConnectionManager.getInstance().attemptLogin(getUser(), getPassword(), getName()))
 				{
 					SystemState.LoggedIn = true;
 					shell.dispose();

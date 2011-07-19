@@ -13,6 +13,8 @@ import javax.media.Buffer;
 import javax.media.Format;
 import javax.media.format.VideoFormat;
 
+import javax.security.auth.login.*;
+
 
 /**
  * Manages the connection of the client to the database. 
@@ -40,14 +42,23 @@ public class DatabaseConnectionManager
 	private int auditCursor = 0;
 
 	// -------------------------------------------------------------------------------
-	public DatabaseConnectionManager()
-	{
-		//connect();
-		//connected = true;
-	}
-
+	private DatabaseConnectionManager(){}
 	// -------------------------------------------------------------------------------
 
+	private static DatabaseConnectionManager manager = null;
+	
+	/**
+	 * Returns the instance of the DatabaseConnectionManager singleton
+	 * @return The connection manager singleton instance
+	 */
+	public static synchronized DatabaseConnectionManager getInstance() {
+		if(manager == null) {
+			manager = new DatabaseConnectionManager();
+			manager.connect();
+		}
+		return manager;
+	}
+	
 	
 	/**
 	 * Opens the connection to the specified database.
@@ -100,7 +111,6 @@ public class DatabaseConnectionManager
 	 */
 	public int newStream(StreamInfo info)
 	{
-
 		streamID++;
 
 		try
@@ -132,10 +142,10 @@ public class DatabaseConnectionManager
 	
 	
 	/**
-	 * Creates a record in the database for the new video and returns the path to it. It does NOT 
-	 * create a file to store the video.
-	 * @param info
-	 * @return
+	 * Creates a record in the database for the new video and returns the path to the destination where the file
+	 * should be saved. It does NOT create the file though!
+	 * @param info for the specified stream
+	 * @return path to where the file should be created and streamed to.
 	 */
 	public String createStream(StreamInfo info)
 	{
@@ -160,8 +170,6 @@ public class DatabaseConnectionManager
 				s.execute(query);
 				
 				outfile = new File(dbPath + currentPath);
-				//fOut = new FileOutputStream(outfile, true);
-				//fOut.close();
 			}
 		} catch (Exception e)
 		{
@@ -179,12 +187,10 @@ public class DatabaseConnectionManager
 	 * @param buffer (Buffer)
 	 * @return void
 	 */
-	public void updateStream(int id, Buffer inBuffer)
+	public void startDBStream(int id, Buffer inBuffer)
 	{
 		try
 		{
-			//Statement s = conn.createStatement();
-
 			// dbPath
 			if (id == streamID)
 			{
@@ -219,14 +225,6 @@ public class DatabaseConnectionManager
 	public boolean attemptLogin(String user, String pass, String name)
 	{
 		boolean success = false;
-		
-		// Attempt to retrieve the user object from the user table
-		// compare user names and passwords
-		// if they match, success = true
-		// else false
-		
-		// Add data to the audit_login table
-		// return success
 		
 		if(!connected)
 			return success;
@@ -267,12 +265,13 @@ public class DatabaseConnectionManager
 		// Log the login attempt
 		try {
 			Statement s = conn.createStatement();
-			String query = "INSERT INTO audit_login VALUES (" + (auditCursor++) + ",'" + user + "'," + dbUserID + ",0," + ((success) ? "'Y'" : "'N'") + ",now())";
+			String query = "INSERT INTO audit_login (username, user_id, computer_id, success, timestamp) VALUES ('" + user + "'," + dbUserID + ",0," + ((success) ? "'Y'" : "'N'") + ",now())";
+			System.out.println(query);
 			s.execute(query);
 		}
 		catch (Exception e)
 		{
-			System.err.println("[Critical Error] An error occurred while logging.");
+			System.err.println("[Critical Error] An error occurred while logging. " + e);
 		}
 		
 		return success;
@@ -342,8 +341,8 @@ public class DatabaseConnectionManager
 		// m.newStream(info);
 		
 		System.out.println("\n\nStart Login Test");
-		System.out.println( "Login Success Test Passed: " + m.attemptLogin("cshortt", "password", "caleb shortt") );
-		System.out.println( "Login Failure Test Passed: " + !m.attemptLogin("cshortt", "notpassword", "caleb shortt") );
+		System.out.println( "Login Success Test Passed: " + m.attemptLogin("test", "testpass", "caleb shortt") );
+		System.out.println( "Login Failure Test Passed: " + !m.attemptLogin("test", "testpassnot", "caleb shortt") );
 		System.out.println("End Login Test");
 		
 		m.disconnect();
