@@ -266,7 +266,6 @@ public class DatabaseConnectionManager
 		try {
 			Statement s = conn.createStatement();
 			String query = "INSERT INTO audit_login (username, user_id, computer_id, success, timestamp) VALUES ('" + user + "'," + dbUserID + ",0," + ((success) ? "'Y'" : "'N'") + ",now())";
-			System.out.println(query);
 			s.execute(query);
 		}
 		catch (Exception e)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
 <window height="738" maximized="true" width="1024" x="158" y="-12">
 <fastViewData fastViewLocation="1024"/>
@@ -35,17 +35,27 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Control.java" partName="Control.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/client/Control.java" title="Control.java" tooltip="secam_v2.0/src/client/Control.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Control.java" partName="Control.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/client/Control.java" title="Control.java" tooltip="secam_v2.0/src/client/Control.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/client/Control.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3693" selectionTopPixel="1547"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2691" selectionTopPixel="1136"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientMain.java" partName="ClientMain.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/client/ClientMain.java" title="ClientMain.java" tooltip="secam_v2.0/src/client/ClientMain.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientMain.java" partName="ClientMain.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/client/ClientMain.java" title="ClientMain.java" tooltip="secam_v2.0/src/client/ClientMain.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/client/ClientMain.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1664" selectionTopPixel="204"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3046" selectionTopPixel="901"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebConnectionManager.java" partName="WebConnectionManager.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/connection/WebConnectionManager.java" title="WebConnectionManager.java" tooltip="secam_v2.0/src/connection/WebConnectionManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/connection/WebConnectionManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2354" selectionTopPixel="731"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StreamApplet.java" partName="StreamApplet.java" path="C:/My Folder/_School/2011 Summer/SECAM/WebControls_Applet/src/StreamApplet.java" title="StreamApplet.java" tooltip="WebControls_Applet/src/StreamApplet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebControls_Applet/src/StreamApplet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1400" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -54,8 +64,8 @@
 </view>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 <view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 </viewState>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
@@ -75,8 +85,7 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
@@ -230,7 +239,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16309963" ratioLeft="221" ratioRight="1134" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.6761905" ratioLeft="426" ratioRight="204" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.86031747" ratioLeft="542" ratioRight="88" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -325,23 +334,32 @@
 <view id="org.eclipse.dltk.debug.ui.ScriptDisplayView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.dltk.ui.ScriptExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.8301587" ratioLeft="523" ratioRight="107" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7714286" ratioLeft="486" ratioRight="144" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.google.gwt.eclipse.DevModeView" label="Development Mode"/>
 <page content="org.eclipse.debug.ui.PHPDebugOutput" label="Debug Output"/>
@@ -352,7 +370,8 @@
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
 <page content="org.eclipse.wst.xsl.jaxp.debug.ui.view1" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -361,20 +380,26 @@
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.23658052" ratioLeft="119" ratioRight="384" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info part="org.eclipse.ui.editorss" ratio="0.28428093" ratioLeft="170" ratioRight="428" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.dltk.debug.ui.ScriptDisplayView" label="Interactive Console"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.PHPStackView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
@@ -387,165 +412,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/client/Control.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SysControls_Demo/src/motiondetection/MotionDetector.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/connection/WebConnectionManager.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/motiondetection/StopBroadcastTask.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/client/ClientMain.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/motiondetection/MotionDetector.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WebControls_Applet/src/StreamApplet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/client/Control.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/connection/DatabaseConnectionManager.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/client/ConnectPane.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/connection/WebConnectionManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/motiondetection/MotionListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" path="/WebControls_Applet/StreamApplet.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WebControls_Applet/src/StreamApplet.java"/>
 </editors>
-<item historyLabel="WebConnectionManager.java" index="2">
-<position info="not_deleted" x="2620" y="0"/>
-</item>
-<item historyLabel="StopBroadcastTask.java" index="3">
-<position/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="4949" y="84"/>
-</item>
-<item historyLabel="StopBroadcastTask.java" index="3">
-<position/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="4685" y="0"/>
-</item>
-<item historyLabel="StopBroadcastTask.java" index="3">
-<position info="not_deleted" x="256" y="17"/>
-</item>
-<item historyLabel="StopBroadcastTask.java" index="3">
-<position info="not_deleted" x="974" y="0"/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="2662" y="0"/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="2662" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="4">
-<position/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="2662" y="0"/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="MotionDetector.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="ClientMain.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="4505" y="0"/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="4505" y="0"/>
-</item>
-<item historyLabel="MotionDetector.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="4505" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="3568" y="0"/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="1890" y="9"/>
-</item>
-<item historyLabel="MotionDetector.java" index="1">
-<position info="not_deleted" x="4898" y="56"/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="2492" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="4">
-<position info="not_deleted" x="1122" y="0"/>
-</item>
-<item historyLabel="Control.java" index="0">
-<position info="not_deleted" x="3693" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="4">
-<position info="not_deleted" x="1414" y="0"/>
-</item>
-<item historyLabel="StreamApplet.java" index="6">
+<item historyLabel="StreamApplet.java" index="1">
 <position info="not_deleted" x="1513" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="4">
+<item historyLabel="ClientMain.java" index="0">
 <position info="not_deleted" x="1664" y="0"/>
 </item>
-<item historyLabel="DatabaseConnectionManager.java" index="7">
-<position info="not_deleted" x="5562" y="0"/>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4281" y="0"/>
 </item>
-<item historyLabel="ConnectPane.java" index="8">
-<position info="not_deleted" x="2697" y="0"/>
+<item historyLabel="ClientMain.java" index="0">
+<position info="not_deleted" x="1718" y="0"/>
 </item>
-<item historyLabel="DatabaseConnectionManager.java" index="7">
-<position info="not_deleted" x="6016" y="0"/>
+<item historyLabel="DatabaseConnectionManager.java" index="3">
+<position info="not_deleted" x="6062" y="0"/>
 </item>
-<item historyLabel="ConnectPane.java" index="8">
-<position info="not_deleted" x="2647" y="49"/>
+<item historyLabel="DatabaseConnectionManager.java" index="3">
+<position info="not_deleted" x="6743" y="0"/>
 </item>
-<item historyLabel="ConnectPane.java" index="8">
-<position info="not_deleted" x="2993" y="0"/>
+<item historyLabel="ClientMain.java" index="0">
+<position info="not_deleted" x="1718" y="0"/>
 </item>
-<item historyLabel="DatabaseConnectionManager.java" index="7">
-<position info="not_deleted" x="6016" y="0"/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="2354" y="0"/>
 </item>
-<item historyLabel="DatabaseConnectionManager.java" index="7">
-<position/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="2427" y="0"/>
 </item>
-<item historyLabel="DatabaseConnectionManager.java" index="7">
-<position info="not_deleted" x="5556" y="12"/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="2505" y="0"/>
 </item>
-<item historyLabel="DatabaseConnectionManager.java" index="7">
-<position info="not_deleted" x="6655" y="0"/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="2708" y="0"/>
 </item>
-<item historyLabel="ConnectPane.java" index="8">
-<position info="not_deleted" x="2993" y="0"/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="2845" y="0"/>
 </item>
-<item historyLabel="DatabaseConnectionManager.java" index="7">
-<position info="not_deleted" x="6655" y="0"/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="2945" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="4">
-<position info="not_deleted" x="1664" y="0"/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="3009" y="0"/>
 </item>
-<item historyLabel="StreamApplet.java" index="6">
-<position info="not_deleted" x="1513" y="0"/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="3050" y="0"/>
 </item>
-<item active="true" historyLabel="ClientMain.java" index="4">
-<position info="not_deleted" x="1664" y="0"/>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="3084" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="3233" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="3371" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="3539" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="3757" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="2718" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="2910" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="5744" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4340" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="3757" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4340" y="0"/>
+</item>
+<item historyLabel="ClientMain.java" index="0">
+<position info="not_deleted" x="1718" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4340" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4373" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4401" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4465" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="4065" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="4153" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="4170" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="4081" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4507" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4625" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4656" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="4895" y="0"/>
+</item>
+<item historyLabel="Control.java" index="2">
+<position info="not_deleted" x="5771" y="0"/>
+</item>
+<item historyLabel="MotionListener.java" index="5">
+<position info="not_deleted" x="1615" y="0"/>
+</item>
+<item historyLabel="WebConnectionManager.java" index="4">
+<position info="not_deleted" x="2354" y="0"/>
+</item>
+<item historyLabel="ClientMain.java" index="0">
+<position info="not_deleted" x="1718" y="0"/>
+</item>
+<item historyLabel="StreamApplet.class" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ClientMain.java" index="0">
+<position info="not_deleted" x="1718" y="0"/>
+</item>
+<item historyLabel="StreamApplet.java" index="7">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item historyLabel="ClientMain.java" index="0">
+<position info="not_deleted" x="1718" y="0"/>
+</item>
+<item historyLabel="StreamApplet.java" index="7">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item historyLabel="ClientMain.java" index="0">
+<position info="not_deleted" x="3046" y="0"/>
+</item>
+<item active="true" historyLabel="Control.java" index="2">
+<position info="not_deleted" x="5771" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -564,14 +588,20 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectPane.java" tooltip="secam_v2.0/src/client/ConnectPane.java">
-<persistable path="/secam_v2.0/src/client/ConnectPane.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StreamApplet.java" tooltip="WebControls_Applet/src/StreamApplet.java">
+<persistable path="/WebControls_Applet/src/StreamApplet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StreamApplet.class" tooltip="WebControls_Applet/StreamApplet.class">
+<persistable path="/WebControls_Applet/StreamApplet.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebConnectionManager.java" tooltip="secam_v2.0/src/connection/WebConnectionManager.java">
+<persistable path="/secam_v2.0/src/connection/WebConnectionManager.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DatabaseConnectionManager.java" tooltip="secam_v2.0/src/connection/DatabaseConnectionManager.java">
 <persistable path="/secam_v2.0/src/connection/DatabaseConnectionManager.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StreamApplet.java" tooltip="WebControls_Applet/src/StreamApplet.java">
-<persistable path="/WebControls_Applet/src/StreamApplet.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectPane.java" tooltip="secam_v2.0/src/client/ConnectPane.java">
+<persistable path="/secam_v2.0/src/client/ConnectPane.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MotionDetector.java" tooltip="SysControls_Demo/src/motiondetection/MotionDetector.java">
 <persistable path="/SysControls_Demo/src/motiondetection/MotionDetector.java"/>
@@ -584,9 +614,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StopBroadcastTask.java" tooltip="secam_v2.0/src/motiondetection/StopBroadcastTask.java">
 <persistable path="/secam_v2.0/src/motiondetection/StopBroadcastTask.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebConnectionManager.java" tooltip="secam_v2.0/src/connection/WebConnectionManager.java">
-<persistable path="/secam_v2.0/src/connection/WebConnectionManager.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebConnSingleton.java" tooltip="secam_v2.0/src/connection/WebConnSingleton.java">
 <persistable path="/secam_v2.0/src/connection/WebConnSingleton.java"/>
@@ -605,9 +632,6 @@
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Runnable.class" tooltip="java.lang.Runnable">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=secam_v2.0/C:\/Program Files\/Java\/jre6\/lib\/rt.jar&lt;java.lang(Runnable.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SysControlMain.java" tooltip="SysControls_Demo/src/syscontrolsdemo/SysControlMain.java">
-<persistable path="/SysControls_Demo/src/syscontrolsdemo/SysControlMain.java"/>
 </file>
 </mruList>
 </workbench>

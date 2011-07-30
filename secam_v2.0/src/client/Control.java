@@ -109,7 +109,9 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 		
 		// Initiate the processor, the locator, and the datasink that will be used to save the stream to file.
 		try {
+			// TODO TEST
 			fileStreamProcessor = Manager.createRealizedProcessor(new ProcessorModel(source, formats, outputType));
+			//fileStreamProcessor = Manager.createRealizedProcessor(new ProcessorModel(formats, null));
 			fileDestinationLocator = new MediaLocator("file://" + filePath);
 			fileBroadcaster = Manager.createDataSink(fileStreamProcessor.getDataOutput(), fileDestinationLocator);
 			
@@ -127,9 +129,9 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 		
 		try {
 			// Start streaming to file
-			fileStreamProcessor.start();
 			fileBroadcaster.open();
 			fileBroadcaster.start();
+			fileStreamProcessor.start();
 			
 			// Start streaming to web
 			webConnManager.startBroadcast();
