@@ -29,3 +29,96 @@ KNOWN ISSUES
 	(Be aware of some driver issues of JMF)
 
 	
+
+
+
+
+
+Things Chris said to do:
+=======================================================================
+
+- Chris made me change the way I implemented the singleton pattern so that it was programatically sound.
+(Made the constructor private - and combined the singleton class with the class that had the logic in it)
+
+- Chris showed me a book with a couple of extra design patterns to implement in the system.
+
+- Said to change the storage of the usernames and passwords - hash the passwords with a one-way hash, and use 
+an authentication frameword (Not using JAAS)
+http://download.oracle.com/javase/1.4.2/docs/guide/security/jaas/tutorials/GeneralAcnOnly.html#AcCode
+
+- Use unit tests - Used JUnit testing framework built into Eclipse
+
+
+
+
+
+Research
+=======================================================================
+- Read the design pattern book and will not take a look at the system to see if I can improve some of the functionality 
+	with design patterns. (Aside from already using singletons for the web and db connection managers)
+
+- Took a look at alternatives to using applets for the website:
+	http://forums.oracle.com/forums/thread.jspa?threadID=2143244&tstart=45
+
+	suggests using a webstart launched (J)Frame - looking into portability
+
+- 
+
+
+
+
+Progress
+=======================================================================
+
+AS OF JULY 30, 2011
+
+- Version 2.0 is almost complete.
+	- Having problems with the streaming to the applet. It works fine in the eclipse applet viewer, but when 
+		I run the applet in the website (browser is chrome) I get no errors, but also no stream. I 
+		suspect this is a security problem as I have had problems with firewalls blocking the applets 
+		before. I'll look into this.
+	- Having problems streaming the video to file. I thought this was working but it turns out that it 
+		hasn't - not even in the prototype. I will have to take a look at how datasinks work and 
+		see if I can debug this. Right now its using JMF to get a cloned version of the webcam datasource,
+		then convert it to .mov format in a processor, then it is supposed to save the file to the specified
+		data location given to the daatsink. (Still not working)
+	- All other systems seem to work well.
+	- Reduced the code base by a significant amount with the reduction from version 1.0 to 2.0.
+	- Upgraded JMF (I guess there was a more recent version) and not have ability to select from multiple input
+		devices easily on startup.
+	- Upgraded JRE and now some of the issues with the applet are no longer relevant - still having streaming 
+		problems though.
+	- Remote server is now operational and will be using it in version 3.0 to separate the database and control
+		from the client application. (Data storage, and streaming will go through the server - along with 
+		access controls, etc)
+	- Everything is in a GitHub repository now, where we have a - somewhat-maintained wiki, and ticket management 
+		system. This will help facilitate code continuity and integrity.
+	- The GitHub project contains the entire eclipse project and settings so that developers can import the entire
+		project into eclipse without very much configuration. Readmes have been written to guide users in 
+		configuring these changes.
+	- Research into stream encryption and cryptography has been constant throughout V2.0 development. Some 
+		suggestions from Chris Matthews include storing a has of the passwords instead of plaintext, 
+		using certain Java security libraries for user authentication and stream encryption, and better use 
+		of access controls to limit the ability of the client application to abuse the system.
+	- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
