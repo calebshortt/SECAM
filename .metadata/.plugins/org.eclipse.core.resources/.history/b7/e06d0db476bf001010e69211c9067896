@@ -172,7 +172,6 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 			
 			String name = currentFile.getPath();
 			name = name.replaceAll("temp.", "");
-			name = name.replaceAll(".nonstreamable", "");
 			currentFile.renameTo(new File(name));
 			fileBroadcaster.stop();
 			fileBroadcaster.close();

@@ -108,6 +108,18 @@ AS OF JULY 30, 2011
 
 
 
+TODO
+=======================================================================
+- Want to change the database ids to autoincrement and have the system create a record for the video, then 
+	retrieve the id, then use that id - this will remove the neccessity to have the settings.dat file and 
+	will also stop the inconsistency errors that occur when the system crashes.
+
+
+
+
+
+
+
 
 
 

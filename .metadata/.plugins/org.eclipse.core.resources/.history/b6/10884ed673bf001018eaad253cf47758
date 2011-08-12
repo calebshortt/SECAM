@@ -125,7 +125,7 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 			fileStreamProcessor.configure();
 			
 			DataSource processorOutput = fileStreamProcessor.getDataOutput();
-			fileDestinationLocator = new MediaLocator("file:" + File.separator + currentFile.getAbsolutePath());
+			fileDestinationLocator = new MediaLocator("file:" + File.pathSeparator + currentFile.getAbsolutePath());
 			
 			// TODO
 			System.out.println("[Datasink] Will be saving the file to: " + fileDestinationLocator);
@@ -172,7 +172,6 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 			
 			String name = currentFile.getPath();
 			name = name.replaceAll("temp.", "");
-			name = name.replaceAll(".nonstreamable", "");
 			currentFile.renameTo(new File(name));
 			fileBroadcaster.stop();
 			fileBroadcaster.close();

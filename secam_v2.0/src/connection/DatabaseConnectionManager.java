@@ -147,10 +147,11 @@ public class DatabaseConnectionManager
 	 * @param info for the specified stream
 	 * @return path to where the file should be created and streamed to.
 	 */
-	public String createStream(StreamInfo info)
+	public File createStream(StreamInfo info)
 	{
 		streamID++;
 		File outfile = null;
+		String[] file = new String[2];
 
 		try
 		{
@@ -160,8 +161,14 @@ public class DatabaseConnectionManager
 			if (format instanceof VideoFormat)
 			{
 				vFormat = (VideoFormat) format;
-
-				currentPath = "stream" + streamID + ".mov";
+				
+				String path = "temp.stream" + streamID;
+				outfile = File.createTempFile(path, ".mov", new File(dbPath));
+				currentPath = outfile.getPath();
+				
+				
+				// TODO TEST
+				//currentPath = "stream" + streamID + ".mov";
 
 				String query = "INSERT INTO videos VALUES (";
 				query += streamID + "," + info.getUserID() + "," + info.getCompID() + ",";
@@ -169,7 +176,8 @@ public class DatabaseConnectionManager
 
 				s.execute(query);
 				
-				outfile = new File(dbPath + currentPath);
+				// TODO TEST
+				//outfile = new File(dbPath + currentPath);
 			}
 		} catch (Exception e)
 		{
@@ -177,7 +185,10 @@ public class DatabaseConnectionManager
 			System.err.println(e.getMessage());
 		}
 		
-		return (outfile.getAbsolutePath());
+		// TODO TEST
+		//return (outfile.getAbsolutePath());
+		
+		return outfile;
 	}
 	
 	

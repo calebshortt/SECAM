@@ -116,27 +116,26 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 		try {
 			
 			// TODO
-			System.out.println("[Processor] Will be using videosource: " + videoSource.toString());
-			System.out.println("[Processor] Will be using format(a): " + formats.toString());
-			System.out.println("[Processor] Will be using output type: " + outputType.toString());
+			System.out.println("[Processor] Will be using videosource: " + videoSource);
+			System.out.println("[Processor] Will be using format(a): " + formats);
+			System.out.println("[Processor] Will be using output type: " + outputType);
 			
 			
 			fileStreamProcessor = Manager.createRealizedProcessor(new ProcessorModel(videoSource, formats, outputType));
 			fileStreamProcessor.configure();
 			
 			DataSource processorOutput = fileStreamProcessor.getDataOutput();
-			fileDestinationLocator = new MediaLocator("file:" + File.separator + currentFile.getAbsolutePath());
+			fileDestinationLocator = new MediaLocator(currentFile.toURI().toURL());
 			
 			// TODO
 			System.out.println("[Datasink] Will be saving the file to: " + fileDestinationLocator);
-			System.out.println("[Datasink] Will be using the processorOutput: " + processorOutput.toString());
+			System.out.println("[Datasink] Will be using the processorOutput: " + processorOutput);
 			
 			fileBroadcaster = Manager.createDataSink(processorOutput, fileDestinationLocator);
 			fileBroadcaster.open();
 			
 		} catch (Exception e) {
 			System.err.println("[Error] Unable to initiate broadcast to file: " + e);
-			e.printStackTrace();
 			return false;
 		}
 		return true;
@@ -161,7 +160,6 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 			timer.schedule(new StopBroadcastTask(currentFile, fileStreamProcessor, fileBroadcaster, webConnManager), (long)(recordingInterval*60*1000));
 		} catch (Exception e) {
 			System.err.println("[ERROR] Could not start general broadcast: " + e);
-			e.printStackTrace();
 		}
 	}
 	
@@ -172,7 +170,6 @@ public class Control implements MotionListenerInterface, SystemStateChangeInterf
 			
 			String name = currentFile.getPath();
 			name = name.replaceAll("temp.", "");
-			name = name.replaceAll(".nonstreamable", "");
 			currentFile.renameTo(new File(name));
 			fileBroadcaster.stop();
 			fileBroadcaster.close();

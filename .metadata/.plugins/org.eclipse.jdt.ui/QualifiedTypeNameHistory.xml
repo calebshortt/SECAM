@@ -16,4 +16,7 @@
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="javax.media.DataSink"/>
 <fullyQualifiedTypeName name="client.SystemState"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="javax.media.protocol.FileTypeDescriptor"/>
+<fullyQualifiedTypeName name="javax.media.format.VideoFormat"/>
 </qualifiedTypeNameHistroy>

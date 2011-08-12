@@ -1,6 +1,7 @@
 package connection;
 
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -49,7 +50,7 @@ public class DatabaseConnectionManagerTest {
 	public void createStream() {
 		SimpleDateFormat formatter = new SimpleDateFormat();
 		StreamInfo info = new StreamInfo(0, 0, formatter.format(new Date()), formatter.format(new Date()), new VideoFormat(VideoFormat.CINEPAK));
-		String path = manager.createStream(info);
-		assert !path.isEmpty();
+		File path = manager.createStream(info);
+		assert (path != null);
 	}
 }
