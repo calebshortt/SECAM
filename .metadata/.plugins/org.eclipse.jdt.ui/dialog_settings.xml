@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="filter_imports;" key="filters_last_used"/>
-	<item value="C:\My Folder\_School\2011 Summer\SECAM\WebControls_Applet\resources" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Program Files\JMF2.1.1e\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>

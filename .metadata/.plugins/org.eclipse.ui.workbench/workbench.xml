@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="28" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="738" maximized="true" width="1024" x="148" y="-19">
 <fastViewData fastViewLocation="1024"/>
@@ -40,37 +40,42 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Control.java" partName="Control.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/client/Control.java" title="Control.java" tooltip="secam_v2.0/src/client/Control.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/client/Control.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5947" selectionTopPixel="2346"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientMain.java" partName="ClientMain.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v3.0_Client/src/client/ClientMain.java" title="ClientMain.java" tooltip="secam_v3.0_Client/src/client/ClientMain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v3.0_Client/src/client/ClientMain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientMain.java" partName="ClientMain.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/client/ClientMain.java" title="ClientMain.java" tooltip="secam_v2.0/src/client/ClientMain.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/client/ClientMain.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3044" selectionTopPixel="923"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectPane.java" partName="ConnectPane.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v3.0_Client/src/client/ConnectPane.java" title="ConnectPane.java" tooltip="secam_v3.0_Client/src/client/ConnectPane.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v3.0_Client/src/client/ConnectPane.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="218" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebConnectionManager.java" partName="WebConnectionManager.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/connection/WebConnectionManager.java" title="WebConnectionManager.java" tooltip="secam_v2.0/src/connection/WebConnectionManager.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/connection/WebConnectionManager.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3009" selectionTopPixel="1241"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InputDeviceManager.java" partName="InputDeviceManager.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v3.0_Client/src/client/InputDeviceManager.java" title="InputDeviceManager.java" tooltip="secam_v3.0_Client/src/client/InputDeviceManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v3.0_Client/src/client/InputDeviceManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StreamApplet.java" partName="StreamApplet.java" path="C:/My Folder/_School/2011 Summer/SECAM/WebControls_Applet/src/StreamApplet.java" title="StreamApplet.java" tooltip="WebControls_Applet/src/StreamApplet.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WebControls_Applet/src/StreamApplet.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1400" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StateChangeEvent.java" partName="StateChangeEvent.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v3.0_Client/src/client/StateChangeEvent.java" title="StateChangeEvent.java" tooltip="secam_v3.0_Client/src/client/StateChangeEvent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v3.0_Client/src/client/StateChangeEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DatabaseConnectionManager.java" partName="DatabaseConnectionManager.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/connection/DatabaseConnectionManager.java" title="DatabaseConnectionManager.java" tooltip="secam_v2.0/src/connection/DatabaseConnectionManager.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/connection/DatabaseConnectionManager.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4391" selectionTopPixel="2471"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SystemState.java" partName="SystemState.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v3.0_Client/src/client/SystemState.java" title="SystemState.java" tooltip="secam_v3.0_Client/src/client/SystemState.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v3.0_Client/src/client/SystemState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="422" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MotionDetectionEffect.java" partName="MotionDetectionEffect.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/motiondetection/MotionDetectionEffect.java" title="MotionDetectionEffect.java" tooltip="secam_v2.0/src/motiondetection/MotionDetectionEffect.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/motiondetection/MotionDetectionEffect.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14461" selectionTopPixel="6589"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SystemStateChangeInterface.java" partName="SystemStateChangeInterface.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v3.0_Client/src/client/SystemStateChangeInterface.java" title="SystemStateChangeInterface.java" tooltip="secam_v3.0_Client/src/client/SystemStateChangeInterface.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v3.0_Client/src/client/SystemStateChangeInterface.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StopBroadcastTask.java" partName="StopBroadcastTask.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v2.0/src/motiondetection/StopBroadcastTask.java" title="StopBroadcastTask.java" tooltip="secam_v2.0/src/motiondetection/StopBroadcastTask.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v2.0/src/motiondetection/StopBroadcastTask.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="917" selectionTopPixel="312"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SystemStateListener.java" partName="SystemStateListener.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v3.0_Client/src/client/SystemStateListener.java" title="SystemStateListener.java" tooltip="secam_v3.0_Client/src/client/SystemStateListener.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v3.0_Client/src/client/SystemStateListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="138" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectionController.java" partName="ConnectionController.java" path="C:/My Folder/_School/2011 Summer/SECAM/secam_v3.0_Client/src/connection/ConnectionController.java" title="ConnectionController.java" tooltip="secam_v3.0_Client/src/connection/ConnectionController.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/secam_v3.0_Client/src/connection/ConnectionController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1488" selectionTopPixel="323"/>
 </editor>
 </editors>
 <views>
@@ -100,8 +105,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -253,7 +256,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16309963" ratioLeft="221" ratioRight="1134" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7126984" ratioLeft="449" ratioRight="181" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.815873" ratioLeft="514" ratioRight="116" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -410,165 +413,173 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/client/ClientMain.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/client/Control.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/motiondetection/StopBroadcastTask.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/client/ClientMain.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/connection/DatabaseConnectionManager.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/client/Control.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/motiondetection/StopBroadcastTask.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WebControls_Applet/src/StreamApplet.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v2.0/src/connection/DatabaseConnectionManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/ClientMain.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/ConnectPane.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/InputDeviceManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/StateChangeEvent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/SystemState.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/SystemStateChangeInterface.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/SystemStateListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/client/SystemStateListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/client/ClientMain.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/client/ConnectPane.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/client/StateChangeEvent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/client/SystemState.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/client/SystemStateChangeInterface.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/client/InputDeviceManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/connection/ConnectionController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/connection/ConnectionController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/secam_v3.0_Client/src/client/SystemState.java"/>
 </editors>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4593" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="0">
-<position info="not_deleted" x="2645" y="0"/>
-</item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4593" y="0"/>
-</item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4324" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="0">
-<position info="not_deleted" x="2645" y="0"/>
-</item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4180" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="0">
-<position info="not_deleted" x="2645" y="0"/>
-</item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="3554" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="0">
-<position info="not_deleted" x="2645" y="0"/>
-</item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="3390" y="0"/>
-</item>
-<item historyLabel="ClientMain.java" index="0">
-<position info="not_deleted" x="2645" y="0"/>
-</item>
-<item historyLabel="Control.java" index="1">
+<item historyLabel="SystemStateChangeInterface.java" index="5">
 <position/>
 </item>
+<item historyLabel="StateChangeEvent.java" index="3">
+<position info="not_deleted" x="249" y="0"/>
+</item>
+<item historyLabel="SystemStateChangeInterface.java" index="5">
+<position info="not_deleted" x="35" y="0"/>
+</item>
+<item historyLabel="SystemStateListener.java" index="6">
+<position info="not_deleted" x="111" y="0"/>
+</item>
+<item historyLabel="SystemStateListener.java" index="7">
+<position info="not_deleted" x="17" y="0"/>
+</item>
 <item historyLabel="ClientMain.java" index="0">
-<position info="not_deleted" x="2645" y="0"/>
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position/>
+<item historyLabel="ClientMain.java" index="8">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="StopBroadcastTask.java" index="2">
-<position info="not_deleted" x="934" y="0"/>
+<item historyLabel="ConnectPane.java" index="1">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="3385" y="0"/>
+<item historyLabel="ConnectPane.java" index="9">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4239" y="0"/>
+<item historyLabel="StateChangeEvent.java" index="3">
+<position info="not_deleted" x="249" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4332" y="0"/>
+<item historyLabel="StateChangeEvent.java" index="10">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4105" y="0"/>
+<item historyLabel="SystemState.java" index="4">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="2645" y="0"/>
+<item historyLabel="SystemState.java" index="11">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4199" y="0"/>
+<item historyLabel="SystemStateChangeInterface.java" index="5">
+<position info="not_deleted" x="50" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4751" y="0"/>
+<item historyLabel="SystemStateChangeInterface.java" index="12">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="2645" y="0"/>
+<item historyLabel="SystemStateListener.java" index="7">
+<position info="not_deleted" x="17" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4539" y="0"/>
+<item historyLabel="InputDeviceManager.java" index="2">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="2645" y="0"/>
+<item historyLabel="InputDeviceManager.java" index="13">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4537" y="0"/>
+<item historyLabel="SystemStateListener.java" index="7">
+<position info="not_deleted" x="138" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="2718" y="0"/>
+<item historyLabel="ConnectPane.java" index="9">
+<position info="not_deleted" x="424" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4871" y="0"/>
+<item historyLabel="ConnectionController.java" index="14">
+<position info="not_deleted" x="150" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="2900" y="0"/>
+<item historyLabel="ConnectPane.java" index="9">
+<position info="not_deleted" x="424" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4749" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="3735" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="2900" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="661" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4505" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1605" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="3044" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1678" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4505" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="2100" y="0"/>
 </item>
-<item historyLabel="DatabaseConnectionManager.java" index="4">
-<position info="not_deleted" x="4391" y="0"/>
+<item historyLabel="SystemState.java" index="16">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="Control.java" index="1">
-<position info="not_deleted" x="4495" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="3022" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="3044" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="3115" y="0"/>
 </item>
-<item historyLabel="Control.java" index="5">
-<position info="not_deleted" x="4495" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="3468" y="0"/>
 </item>
-<item historyLabel="Control.java" index="5">
-<position info="not_deleted" x="5926" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1857" y="0"/>
 </item>
-<item historyLabel="Control.java" index="5">
-<position info="not_deleted" x="5945" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="488" y="0"/>
 </item>
-<item historyLabel="Control.java" index="5">
-<position info="not_deleted" x="5897" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1912" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="3044" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="893" y="0"/>
 </item>
-<item historyLabel="StopBroadcastTask.java" index="6">
-<position info="not_deleted" x="984" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="866" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="3044" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1007" y="0"/>
 </item>
-<item historyLabel="Control.java" index="5">
-<position info="not_deleted" x="5902" y="45"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="894" y="0"/>
 </item>
-<item historyLabel="StopBroadcastTask.java" index="6">
-<position info="not_deleted" x="917" y="0"/>
+<item historyLabel="SystemState.java" index="16">
+<position info="not_deleted" x="404" y="9"/>
 </item>
-<item historyLabel="Control.java" index="5">
-<position info="not_deleted" x="5947" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1480" y="0"/>
 </item>
-<item historyLabel="ClientMain.java" index="3">
-<position info="not_deleted" x="3044" y="0"/>
+<item historyLabel="SystemState.java" index="16">
+<position info="not_deleted" x="422" y="0"/>
 </item>
-<item historyLabel="StreamApplet.java" index="7">
-<position info="not_deleted" x="1400" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1480" y="0"/>
 </item>
-<item active="true" historyLabel="DatabaseConnectionManager.java" index="8">
-<position info="not_deleted" x="4391" y="0"/>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="2653" y="0"/>
+</item>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="2692" y="0"/>
+</item>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="2830" y="0"/>
+</item>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="2047" y="0"/>
+</item>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="2804" y="0"/>
+</item>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1125" y="0"/>
+</item>
+<item historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1218" y="0"/>
+</item>
+<item active="true" historyLabel="ConnectionController.java" index="15">
+<position info="not_deleted" x="1338" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -587,6 +598,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectionController.java" tooltip="secam_v3.0_Client/src/connection/ConnectionController.java">
+<persistable path="/secam_v3.0_Client/src/connection/ConnectionController.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SystemStateListener.java" tooltip="secam_v3.0_Client/src/SystemStateListener.java">
+<persistable path="/secam_v3.0_Client/src/SystemStateListener.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SystemStateChangeInterface.java" tooltip="secam_v3.0_Client/src/SystemStateChangeInterface.java">
+<persistable path="/secam_v3.0_Client/src/SystemStateChangeInterface.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SystemState.java" tooltip="secam_v3.0_Client/src/SystemState.java">
+<persistable path="/secam_v3.0_Client/src/SystemState.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StateChangeEvent.java" tooltip="secam_v3.0_Client/src/StateChangeEvent.java">
+<persistable path="/secam_v3.0_Client/src/StateChangeEvent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InputDeviceManager.java" tooltip="secam_v3.0_Client/src/InputDeviceManager.java">
+<persistable path="/secam_v3.0_Client/src/InputDeviceManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectPane.java" tooltip="secam_v3.0_Client/src/ConnectPane.java">
+<persistable path="/secam_v3.0_Client/src/ConnectPane.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientMain.java" tooltip="secam_v3.0_Client/src/ClientMain.java">
+<persistable path="/secam_v3.0_Client/src/ClientMain.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientMain.java" tooltip="secam_v2.0/src/client/ClientMain.java">
+<persistable path="/secam_v2.0/src/client/ClientMain.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StopBroadcastTask.java" tooltip="secam_v2.0/src/motiondetection/StopBroadcastTask.java">
 <persistable path="/secam_v2.0/src/motiondetection/StopBroadcastTask.java"/>
 </file>
@@ -604,33 +642,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StreamApplet.java" tooltip="WebControls_Applet/src/StreamApplet.java">
 <persistable path="/WebControls_Applet/src/StreamApplet.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="StreamApplet.class" tooltip="WebControls_Applet/StreamApplet.class">
-<persistable path="/WebControls_Applet/StreamApplet.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebConnectionManager.java" tooltip="secam_v2.0/src/connection/WebConnectionManager.java">
-<persistable path="/secam_v2.0/src/connection/WebConnectionManager.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConnectPane.java" tooltip="secam_v2.0/src/client/ConnectPane.java">
-<persistable path="/secam_v2.0/src/client/ConnectPane.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientMain.java" tooltip="secam_v2.0/src/client/ClientMain.java">
-<persistable path="/secam_v2.0/src/client/ClientMain.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MotionDetector.java" tooltip="secam_v2.0/src/motiondetection/MotionDetector.java">
-<persistable path="/secam_v2.0/src/motiondetection/MotionDetector.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebConnSingleton.java" tooltip="secam_v2.0/src/connection/WebConnSingleton.java">
-<persistable path="/secam_v2.0/src/connection/WebConnSingleton.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Control.java" tooltip="secam_v2.0/src/client/Control.java">
-<persistable path="/secam_v2.0/src/client/Control.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimeStampEffect.java" tooltip="secam_v2.0/src/motiondetection/TimeStampEffect.java">
-<persistable path="/secam_v2.0/src/motiondetection/TimeStampEffect.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DBConnSingleton.java" tooltip="secam_v2.0/src/connection/DBConnSingleton.java">
-<persistable path="/secam_v2.0/src/connection/DBConnSingleton.java"/>
 </file>
 </mruList>
 </workbench>

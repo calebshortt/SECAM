@@ -939,3 +939,90 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2011-08-12 14:05:21.027 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product -data C:\My Folder\_School\2011 Summer\SECAM -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2011-08-12 14:05:32.394
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-08-12 14:05:32.394
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.php.core 4 4 2011-08-12 18:34:24.807
+!MESSAGE SysControls_Demo does not exist
+!STACK 1
+org.eclipse.dltk.core.ModelException: SysControls_Demo does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelManager.getPerProjectInfoCheckExistence(ModelManager.java:805)
+	at org.eclipse.dltk.internal.core.ScriptProject.getPerProjectInfo(ScriptProject.java:708)
+	at org.eclipse.dltk.internal.core.ScriptProject.getResolvedBuildpath(ScriptProject.java:304)
+	at org.eclipse.dltk.internal.core.ScriptProject.getResolvedBuildpath(ScriptProject.java:275)
+	at org.eclipse.dltk.internal.core.ScriptProject.buildStructure(ScriptProject.java:672)
+	at org.eclipse.dltk.internal.core.Openable.generateInfos(Openable.java:188)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:184)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:171)
+	at org.eclipse.dltk.internal.core.ModelElement.getChildren(ModelElement.java:356)
+	at org.eclipse.dltk.internal.core.ModelElement.getChildren(ModelElement.java:351)
+	at org.eclipse.dltk.internal.core.ScriptProject.getProjectFragments(ScriptProject.java:1483)
+	at org.eclipse.php.internal.core.PHPCorePlugin$ReindexOperationListener.resourceChanged(PHPCorePlugin.java:162)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:311)
+	at org.eclipse.core.internal.resources.Workspace.aboutToBuild(Workspace.java:250)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:341)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog.doClean(CleanDialog.java:306)
+	at org.eclipse.ui.internal.ide.dialogs.CleanDialog$1.runInWorkspace(CleanDialog.java:154)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2011-08-12 18:34:24.808
+!MESSAGE SysControls_Demo does not exist
+!SESSION 2011-08-13 12:41:46.478 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2011-08-13 12:41:57.752
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-08-13 12:41:57.752
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

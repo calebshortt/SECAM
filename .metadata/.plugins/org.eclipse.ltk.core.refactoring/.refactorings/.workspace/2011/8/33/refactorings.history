@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;secam_v3.0&apos; to &apos;secam_v3.0_Client&apos;&#x0D;&#x0A;- Original element: &apos;secam_v3.0&apos;&#x0D;&#x0A;- Renamed element: &apos;secam_v3.0&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;secam_v3.0&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=secam_v3.0" name="secam_v3.0_Client" references="true" stamp="1313184168210" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package connection;
+
+public class ConnectionController {
+	// Handle all of the communications from client to server and vice versa
+	// Client-side
+	
+	
+	
+	
+	private ConnectionController() {
+		
+	}
+	
+	
+	private static ConnectionController controller = null;
+	public static ConnectionController getInstance() {
+		if (controller == null)
+			controller = new ConnectionController();
+		return controller;
+	}
+	
+	
+	
+	
+	
+	
+}

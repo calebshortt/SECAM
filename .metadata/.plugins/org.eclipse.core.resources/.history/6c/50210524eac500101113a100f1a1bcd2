@@ -1,0 +1,29 @@
+package connection;
+
+public class ConnectionController {
+	// Handle all of the communications from client to server and vice versa
+	// Client-side
+	
+	
+	
+	
+	private ConnectionController() {
+		// Attempt to connect to the server x times
+		// ping the server at regular intervals?
+		//	A thread will do that best: some thread examples in other code (timers, etc)
+	}
+	
+	
+	private static ConnectionController controller = null;
+	public static ConnectionController getInstance() {
+		if (controller == null)
+			controller = new ConnectionController();
+		return controller;
+	}
+	
+	
+	
+	
+	
+	
+}

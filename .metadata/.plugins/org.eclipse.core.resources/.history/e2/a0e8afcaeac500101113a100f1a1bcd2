@@ -1,0 +1,39 @@
+package connection;
+
+public class ConnectionController {
+	// Handle all of the communications from client to server and vice versa
+	// Client-side
+	
+	
+	
+	
+	private ConnectionController() {
+		// Attempt to connect to the server x times
+		// ping the server at regular intervals?
+		//	A thread will do that best: some thread examples in other code (timers, etc)
+	}
+	
+	
+	private static ConnectionController controller = null;
+	public static ConnectionController getInstance() {
+		if (controller == null)
+			controller = new ConnectionController();
+		return controller;
+	}
+	
+	
+	// TODO: Finish this function
+	public boolean validateUser(String username, String password, String ip) {
+		// - The username and password will be sent to this function in plain text form
+		// - The password will have to be run through a md5 hash before being sent to the server
+		// - The ip address will be used to link the user and the computer where the client is installed
+		// - This function will also "register" the client with the server
+		//		- The client will be given a unique id upon successful validation
+		//		- This id will be required upon for stream creation and ending streams
+		
+		return true;
+	}
+	
+	
+	
+}

@@ -1,0 +1,105 @@
+package connection;
+
+import java.io.IOException;
+import java.net.Socket;
+
+import client.SystemState;
+
+/**
+ * Client-side program: Handles all of the communications from client to server
+ * @author Caleb Shortt
+ */
+public class ConnectionController {
+	
+	private int connectionRetries = 5;
+	private int port = 4444;
+	private String server = "";
+	private Socket clientSocket = null;
+	
+	
+	
+	
+	private ConnectionController() {
+		
+		int attemptCount = 0;
+		boolean success = false;
+		while(!success && attemptCount < connectionRetries) {
+			success = connect();
+			try {
+				Thread.sleep(100);
+			} catch (Exception e) {}
+			attemptCount++;
+		}
+		
+		if (!success) {
+			System.err.println("[Error] Could not contact server.");
+		} else {
+			SystemState.Connected = true;
+		}
+		
+		
+	}
+	
+	
+	private static ConnectionController controller = null;
+	public static ConnectionController getInstance() {
+		if (controller == null)
+			controller = new ConnectionController();
+		return controller;
+	}
+	
+	
+	/**
+	 * Attempts to connect to the server from the given parameters 'server' and 'port'
+	 * @return success
+	 */
+	private boolean connect() {
+		try {
+			clientSocket = new Socket(server, port);
+		} catch (IOException ioe) {
+			return false;
+		}
+		return true;
+	}
+	
+	
+	// TODO: Finish this function
+	public boolean validateUser(String username, String password, String ip) {
+		// - The username and password will be sent to this function in plain text form
+		// - The password will have to be run through a md5 hash before being sent to the server
+		// - The ip address will be used to link the user and the computer where the client is installed
+		// - This function will also "register" the client with the server
+		//		- The client will be given a unique id upon successful validation
+		//		- This id will be required upon for stream creation and ending streams
+		
+		byte[] passwordHash = password.getBytes("UTF-8");
+		
+		
+		
+		
+		
+		
+		
+		return true;
+	}
+	
+	
+	// TODO: Finish this function
+	public boolean createStream() {
+		// - Not sure what variables will be passed to this function yet.
+		// - This function will tell the server to register a stream with the unique id given to the client
+		// 		- It will also begin the streaming process (Probably done in a separate thread)
+		
+		return true;
+	}
+	
+	
+	// TODO: Finish this function
+	public boolean endStream() {
+		// - This function will contact the server and tell it that the streaming has stopped
+		// - This will provide a log trace for all ending of streams
+		// - This function will help prevent unauthorized users from stopping the streaming
+		
+		return true;
+	}
+}
